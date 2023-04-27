@@ -18,7 +18,7 @@ const Classify = () => {
     const onFileUpload = () => {
         SetData(null)
         console.log("onFileUpload");
-        Db.map((item) => { 
+        Db.forEach((item) => { 
             if(item.name === selectedFile.name){
                 SetData(item);
                 console.log(item);
