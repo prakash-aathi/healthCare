@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/healthCare/static/css/main.21e3aa08.css",
-    "main.js": "/healthCare/static/js/main.70586f9c.js",
+    "main.css": "/healthCare/static/css/main.b1de48a2.css",
+    "main.js": "/healthCare/static/js/main.74757b07.js",
     "static/js/787.f3c1da9b.chunk.js": "/healthCare/static/js/787.f3c1da9b.chunk.js",
+    "static/media/table.jpeg": "/healthCare/static/media/table.ed7647d79e5681289571.jpeg",
     "index.html": "/healthCare/index.html",
-    "main.21e3aa08.css.map": "/healthCare/static/css/main.21e3aa08.css.map",
-    "main.70586f9c.js.map": "/healthCare/static/js/main.70586f9c.js.map",
+    "main.b1de48a2.css.map": "/healthCare/static/css/main.b1de48a2.css.map",
+    "main.74757b07.js.map": "/healthCare/static/js/main.74757b07.js.map",
     "787.f3c1da9b.chunk.js.map": "/healthCare/static/js/787.f3c1da9b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.21e3aa08.css",
-    "static/js/main.70586f9c.js"
+    "static/css/main.b1de48a2.css",
+    "static/js/main.74757b07.js"
   ]
 }
