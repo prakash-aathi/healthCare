@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
 import './Bmi.css'
+import table from "../images/table.jpeg"
 
 function Bmi() {
     const [height, setHeight] = useState(0)
@@ -11,7 +12,7 @@ function Bmi() {
     }
     
   return (
-    <div>
+    <div  className=''> 
 			<h2 className='my-4'>BMI Calculator</h2>
 			<input className='my-4' type="text" value={height} onChange={(e) => setHeight(e.target.value) } placeholder='Height' id="h"/>
              <br />
@@ -19,6 +20,7 @@ function Bmi() {
             <p id="result">{ result }</p>
 			<button id="btn" onClick={handleBMi}>Calculate</button>
 			<p id="info">Please enter height [cm] and weight [kg]</p>
+      <img className='w-1/2 mr-auto ml-auto mt-6 ' src={table} alt="" />
 	</div>
   )
 }
